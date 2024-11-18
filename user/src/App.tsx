@@ -28,7 +28,7 @@ import "./firebase-config"
 function App() {
   return (
     <Routes>
-       <Route path='giohang' element={<Giohang/>}/>
+      <Route path='giohang' element={<Giohang/>}/>
       <Route path='chitiet' element={<Chitiet/>}/>
       <Route path='chitiet2' element={<Chitiet2/>}/>
       <Route path='chitiet3' element={<Chitiet3/>}/>

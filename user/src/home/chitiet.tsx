@@ -11,12 +11,12 @@ const Chitiet = () => {
     <img src={Images.logo} alt="Logo" />
 
     <NavLink to="/trangchu">Trang Chủ</NavLink>
-  <NavLink to="/datgoi">Đặt gói để tiết kiệm</NavLink>
-  <NavLink to="/mbks">Máy bay + Khách sạn</NavLink>
-  <NavLink to="/ptdc">Phương tiện di chuyển</NavLink>
-  <NavLink to="/pggvud">Phiếu giảm giá và ưu đãi</NavLink>
-  <NavLink to="/dangnhap" className="login">Đăng nhập</NavLink>
-  <NavLink to="/dangky" className="create-account">Tạo tài khoản</NavLink>
+    <NavLink to="/datgoi">Đặt gói để tiết kiệm</NavLink>
+    <NavLink to="/mbks">Máy bay + Khách sạn</NavLink>
+    <NavLink to="/ptdc">Phương tiện di chuyển</NavLink>
+    <NavLink to="/pggvud">Phiếu giảm giá và ưu đãi</NavLink>
+    <NavLink to="/dangnhap" className="login">Đăng nhập</NavLink>
+    <NavLink to="/dangky" className="create-account">Tạo tài khoản</NavLink>
     </nav>
   </header>
   <section className="package-detail">
