@@ -41,7 +41,7 @@ function App() {
       <Route path='mbks' element={<Mbks/>}/>
       <Route path='Pggvud' element={<Pggvud/>}/>
       <Route path='ptdc' element={<Ptdc/>}/>
-      <Route path='trangchu' element={<TrangChu/>}/>
+      <Route path='/' element={<TrangChu/>}/>
       
       <Route path="admin" element={<Home />} />
       <Route path="donkhachdat" element={<Donkhachdat />} />
@@ -50,7 +50,7 @@ function App() {
       <Route path="sanpham" element={<SanPham />} />
       <Route path="thongbao" element={<Thongbao />} />
       <Route path="tinnhan" element={<Tinnhan />} />
-      <Route path="/" element={<Header />} />
+      <Route path="header" element={<Header />} />
 
     </Routes>
   );
