@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`https://github.com/deakay13/ktpm/blob/main/user/README.md
+
+Runs to insall and update lib from Pagkage.Json and Pagkage-Lock.Json, then install node_modules
+When you clone code from github
+
 ### `npm start`
 
 Runs the app in the development mode.\
