@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Màu nền sáng */
+    color: #333; /* Màu chữ tối */
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+    float: left;
+  }
+  
+  .top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .top-bar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .top-bar .flag img {
+    height: 20px;
+  }
+  
+  .top-bar .login,
+  .top-bar .create-account {
+    font-weight: bold;
+  }
+  
+  header {
+    width: 100%; /* Chiều rộng của header bằng 100% */
+    display: flex;
+    justify-content: center; /* Căn giữa nội dung */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #f4f4f4; /* Màu nền cho header */
+    padding: 10px; /* Thêm padding cho header */
+  }
+  
+  header img {
+    max-width: 100px; /* Chiều rộng tối đa của logo */
+    height: auto; /* Chiều cao tự động để giữ tỷ lệ */
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+  }
+.top-bar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white; /* Màu chữ trắng cho liên kết */
+}
+
+.package-detail {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white; /* Nền trắng cho phần chi tiết */
+    border-radius: 8px; /* Bo góc cho phần chi tiết */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng cho phần chi tiết */
+}
+
+.detail-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.package-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #28a745; /* Màu xanh lá cho nút */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Màu xanh lá đậm khi hover */
+}
+
+footer {
+    background-color: #4a90e2; /* Màu xanh nhạt cho footer */
+    padding: 20px;
+    color: white; /* Màu chữ trắng */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+}
+/* CSS cho modal và biểu mẫu */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 768px) {
+    .search-box input {
+        width: 100%; /* Chiếm 100% chiều rộng trên thiết bị nhỏ */
+        margin-bottom: 10px; /* Khoảng cách khi gói lại */
+    }
+
+    .offer {
+        padding: 15px; /* Giảm padding cho nhỏ hơn */
+    }
+
+    .footer-container {
+        flex-direction: column; /* Xếp theo cột trong footer */
+        align-items: center; /* Căn giữa nội dung */
+    }
+
+    header img {
+        width: 120px; /* Giảm kích thước logo trên thiết bị nhỏ */
+    }
+}
